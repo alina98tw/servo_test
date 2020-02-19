@@ -1,0 +1,8 @@
+prefix=/home/alina98-raspi/servo_test/install
+
+Name: servo_test_pack
+Description: Description of servo_test_pack
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lservo_test_pack
+Requires: roscpp rospy std_msgs message_runtime
