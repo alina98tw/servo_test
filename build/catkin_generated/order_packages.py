@@ -2,4 +2,4 @@
 source_root_dir = "/home/alina98-raspi/servo_test/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/alina98-raspi/servo_test/devel;/opt/ros/melodic".split(';') if "/home/alina98-raspi/servo_test/devel;/opt/ros/melodic" != "" else []
+underlay_workspaces = "/opt/ros/melodic".split(';') if "/opt/ros/melodic" != "" else []

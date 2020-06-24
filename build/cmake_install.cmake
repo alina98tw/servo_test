@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/alina98-raspi/servo_test/build/gtest/cmake_install.cmake")
+  include("/home/alina98-raspi/servo_test/build/ros-pwm-pca9685/pwm_pca9685/cmake_install.cmake")
   include("/home/alina98-raspi/servo_test/build/servo_test_pack/cmake_install.cmake")
 
 endif()

@@ -1,2 +1,2 @@
-servo_test_pack
+ros-pwm-pca9685/pwm_pca9685:servo_test_pack
 -DCATKIN_DEVEL_PREFIX=/home/alina98-raspi/servo_test/devel -DCMAKE_INSTALL_PREFIX=/home/alina98-raspi/servo_test/install -G Unix Makefiles
